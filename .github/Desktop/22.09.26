@@ -1,0 +1,48 @@
+'''l=list(map(str,input("Enter the elements:").split()))
+l1=[]
+
+for i in l:
+    c=l.count(i)
+    if (c%2!=0 and i not in l1):
+        l1.append(i)
+    print(l1)
+
+
+l=list(map(int,input().split()))
+l.sort()
+print(sum(l[:3]))
+
+
+l=list(map(int,input().split()))
+l1=[]
+l2=[]
+for i in l:
+    if(i%2==0):
+        l1.append(i)
+    else:
+        l2.append(i)
+    l1.sort()
+    l1.reverse()
+    l2.sort()
+print(l1)
+print(l2)
+
+
+l=list(map(int,input().split()))
+low,high=map(int,input().split())
+
+l1=1
+for i in l:
+    if(i>=low and i<=high):
+        l1=l1*i
+print(l1)
+'''
+
+l=list(map(str,input("Enter the elements:").split()))
+k=int(input())
+print(sum(l[-k:]))
+
+
+
+
+
